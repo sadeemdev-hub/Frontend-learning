@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,7 +14,6 @@ body{
 }
 
 .card{
-    border: 1px solid black;
     width: 300px;
     padding: 15px;
     text-align: center;
@@ -27,14 +27,13 @@ body{
     border-radius: 20px;
 }
 
-.para{
+.card-content{
     padding: 10px;
 }
 h1{
     font-family: "Outfit",sans-serif;
     margin: 20px 5px;
     font-weight: 700px;
-    font-size:23px;
 }
 
 p{
